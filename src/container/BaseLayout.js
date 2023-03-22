@@ -2,10 +2,11 @@ import React from 'react';
 import { useMachine } from '@xstate/react';
 
 import bookingMachine from '../machines/bookingMachine';
-import {Nav} from '../components/Nav'
+import {Nav} from '../components/Nav';
 import { StepsLayout } from './StepsLayout';
 
-import './BaseLayout.css';
+
+import './css/BaseLayout.css';
 
 export const BaseLayout = () => {
 
