@@ -1,0 +1,12 @@
+.BaseLayout {
+  align-items     : center;
+  background-color: #fed6e3;
+  background-image: url('../../public/img/background-travel-2.jpg');
+  background-size : cover;
+  box-sizing      : border-box;
+  display         : flex;
+  flex-direction  : column;
+  justify-content : center;
+  min-height      : 100vh;
+  padding         : 50px;
+}
